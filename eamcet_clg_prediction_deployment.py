@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import openpyxl
+# import openpyxl
 
 # Load the trained model
 loaded_model = pickle.load(open('rfr_model.sav', 'rb'))
