@@ -49,6 +49,7 @@ def predict_colleges(input_rank, input_gender, input_caste):
 
 # Streamlit UI
 st.title('College Recommendation System')
+st.markdown("By Manthena Devi Saranya")
 
 # Input form
 input_rank = st.number_input('Enter your rank:', min_value=1, max_value=10000000, step=1)
